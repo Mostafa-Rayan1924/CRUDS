@@ -1,0 +1,494 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "cairo", sans-serif;
+  list-style: none;
+}
+:root {
+  --main-color: crimson;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+html {
+  box-sizing: border-box;
+}
+.header{
+  min-height: 100vh;
+  background-image: url("pexels-photo-265129.jpeg");
+  background-size: cover;
+  position: relative;
+   transition: 0.5s 
+}
+.header::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+  opacity: .6;
+  z-index: 2;
+}
+.header .container{
+  height: 72px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.header .container h3{
+  z-index: 3;
+  font-size: 22px;
+}
+.header .container .links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .links li{
+  z-index: 3;
+  color: white;
+  transition: 0.3s;
+  padding: 0 15px;
+}
+.header .container .links li:hover, .header .container .links .active{
+  color: var(--main-color);
+}
+.header  .into-text{
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header .into-text h2{
+  text-transform: capitalize;
+  color: white;
+  font-size: 32px;
+}
+.header .into-text span{
+  color: var(--main-color);
+}
+.header .into-text p{
+  margin-top: 15px;
+  color: #fff;
+}
+.setting-box{
+position: fixed;
+top: 0;
+left: -200px;
+width: 200px;
+min-height: 100vh;
+background-color: white;
+z-index: 1000;
+transition: 0.5s;
+}
+.setting-box.open{
+  left: 0;
+}
+.setting-box .toggle{
+  color: white;
+position: absolute;
+top: 100px;
+right: -30px;
+background-color: var(--main-color);
+}
+.setting-box .toggle .fa-gear{
+padding: 8px 0;
+width: 30px;
+cursor: pointer;
+text-align: center;
+}
+.setting-color{
+  padding: 20px;
+  background-color: rgb(204, 204, 204);
+  margin: 20px;
+}
+.setting-color h4{
+  text-align: center;
+}
+.setting-color .colors-list{
+  display: flex;
+  justify-content: center;
+}
+.setting-color .colors-list li{
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  opacity: 0.3;
+  margin: 5px auto;
+  cursor: pointer;
+}
+.setting-color .colors-list li.active{
+  opacity: 1;
+}
+.setting-color .colors-list li:nth-child(1){
+  background-color: crimson;
+}
+.setting-color .colors-list li:nth-child(2){
+  background-color: rgb(36, 187, 187);
+}
+.setting-color .colors-list li:nth-child(3){
+  background-color: #03A9F4;
+}
+.setting-color .colors-list li:nth-child(4){
+  background-color: #FF9800;
+}
+.setting-color .colors-list li:nth-child(5){
+  background-color: rgb(29, 210, 29);
+} */
+
+/* front end tutorial */
+
+/* front end tutorial */
+
+
+
+/* الزرار اللي بيروح يمين وشمال */
+/* body{
+  background-color: #333;
+}
+.link{
+  border: 2px solid rgb(20, 143, 220);
+  color: rgb(20, 143, 220);
+  display: block;
+  width: 160px ;
+  height: 40px;
+  margin: 30px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 3px;
+  transition: 0.3s;
+ position: relative;
+ overflow: hidden;
+  line-height: 40px;
+}
+.link::before{
+content: attr(data-attr);
+position: absolute;
+top: 0;
+left: 0;
+color: rgb(20, 143, 220);
+width: 100%;
+transition: 0.3s;
+transform: translateX(-100%);
+}
+.link span{
+display: block;
+transition: 0.3s;
+}
+.link:hover::before{
+  transform: translateX(0);
+}
+.link:hover span{
+  transform: translateX(100%);
+} */
+/* الزرار اللي بيروح يمين وشمال end of*/
+
+
+
+/* // <!-- scroll to top --> */
+
+ /* body{
+  background-color: #fff;
+  height: 5000px;
+} */
+/* #up{
+  position: fixed;
+    bottom: 10px;
+    right: -40px;
+    background-color: steelblue;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: arial;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#up.open{
+  right: 10px;
+}  */
+ /*end of scroll to top  */
+
+
+
+
+/* مشروع التليفونات  */
+/* * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif ;
+  list-style: none;
+  transition: 0.4s;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+html {
+  box-sizing: border-box;
+}
+.header{
+  background-color: black;
+  min-height: 100vh;
+  width: 100%;
+  
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  padding: 15px 0;
+}
+.header .container img{
+  width: 40px;
+}
+.header .container ul{
+  display: flex;
+}
+.header .container li{
+  padding: 0 10px;
+  text-transform: capitalize;
+}
+.header .container li:hover{
+  color: crimson;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  color: white;
+  margin-top: 80px;
+}
+.content .text h2{
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.content .text p{
+  line-height: 1.6;
+  color: #999;
+margin-bottom: 20px;
+}
+.content .text a{
+  background-color: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.content .image{
+  width: 30%;
+}
+.content .image img{
+  width: 140px;
+}
+.header .div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .div img{
+  width: 60px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.header .div img:hover{
+  transform: scale(1.2);
+}
+نهايه المشروع */
+/* // حاجه كده ب local storage  */
+/* div{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;  
+  margin: 2px;
+}
+
+#red{
+  background-color: red;
+}
+#blue{
+  background-color: blue;
+}
+#green{
+  background-color: green;
+}
+#yellow{
+  background-color: yellow;
+} */
+/* // end of this */
+   
+
+
+
+
+
+/* // اهم مشروع ف حياتك cruds  */
+ *{
+  padding: 0;
+  margin: 0;
+}
+.cruds{
+  width: 80%;
+  margin: auto;
+}
+body{
+  background-color: #222;
+  color: white;
+  font-family: system-ui;
+}
+.cruds .head{
+  text-align: center;
+  text-transform: uppercase;
+}
+.cruds h2{
+  font-size: 40px;
+  margin: 15px 0;
+}
+.cruds p{
+  margin-bottom: 10px;
+}
+input{
+  text-transform: capitalize;
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: rgb(10, 10, 10);
+  margin: 10px 0;
+ transition: 0.4s;
+color: rgb(20, 97, 220);
+padding: 4px 8px;
+cursor: pointer;
+}
+input:focus{
+  background-color: black;
+  transform: scale(1.1);
+}
+.price{
+  width: 100%;
+}
+.price input{
+  width: 18%;
+  margin-right: 10px;
+}
+button{
+cursor: pointer;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(20, 97, 220);
+  color: white;
+  border: none;
+  height: 35px;
+  display: block;
+border-radius: 20px;
+transition: 0.3s;
+text-transform: uppercase;
+}
+button:hover{
+  background-color: rgb(11, 76, 181);
+letter-spacing: 1px;
+}
+
+.btn-search{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-search button{
+  width: 45%;
+}
+small{
+  width: 8%;
+  background-color: rgb(231, 12, 12);
+  text-transform: uppercase;
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+small::before{
+  content: "total :";
+} 
+table{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+table tr{
+  text-transform: uppercase;
+}
+table td{
+  padding: 5px;
+}
+table button{
+  margin: 5px 0;
+}
+table button:hover{
+  letter-spacing: 0;
+}
+#deleteAll{
+  margin: 20px 0 10px;
+}
+/* // the end of cruds  */
+
+
+/* <!-- taps front end tutorial --> */
+/* .tabs{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tabs li{
+  padding: 10px;
+  background-color: #eee;
+  margin: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.tabs li.active,
+.tabs li:hover{
+  background-color: rgb(212, 212, 212);
+}
+.content{
+  background-color: rgb(212, 212, 212);
+  width: 200px;
+  height: 100px;
+}
+.content > div{
+  padding: 20px;
+}
+.content > div:not(:first-child){
+  display: none;
+}
+<!-- end of taps front end tutorial--> */
