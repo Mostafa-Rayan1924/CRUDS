@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" /> 
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+<!-- // cruds  -->
+ <div class="cruds">
+    <div class="head">
+        <h2>cruds</h2>
+        <p>product managment system</p>
+    </div>
+
+    <div  class="input">
+  <input id="title" placeholder="title" type="text">
+  <div id="kalam"></div>
+  <div class="price">
+  <input onkeyup="getTotal()" id="price" placeholder="price" type="number">
+  <input onkeyup="getTotal()" id="taxes" placeholder="taxes" type="number">
+  <input onkeyup="getTotal()" id="ads" placeholder="ads" type="number">
+  <input onkeyup="getTotal()" id="discount" placeholder="discount" type="number">
+  <small id="total"></small>
+  <div id="kalamp"></div>
+  </div>
+  <input id="count" placeholder="count" type="number">
+  <input id="category" placeholder="category" type="text">
+  <button id="submit">create</button>
+</div>
+
+
+
+<!-- onkeyup="searchData(this.value)" -->
+
+    <div class="output">
+   <input onkeyup="searchData(this.value)"  id="search" placeholder="search" type="text">
+    </div>
+   
+   <div id="deleteAll"></div>
+   <table>
+       <thead>
+           <tr>
+           <th>id</th>
+           <th>title</th>
+           <th>price</th>
+           <th>taxes</th>
+           <th>ads</th>
+           <th>discount</th>
+           <th>total</th>
+           <th>category</th>
+           <th>update</th>
+           <th>delete</th>
+        </tr>
+       </thead>
+       <tbody id="tbody">
+           
+       </tbody>
+   </table>
+</div> 
+<!-- // the end of cruds  -->
+<script src="first.js"></script>
+</body>
+</html>
