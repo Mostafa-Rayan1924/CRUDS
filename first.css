@@ -89,11 +89,17 @@ table{
   text-align: center;
   margin: 20px 0;
 }
+
 table tr{
   text-transform: uppercase;
 }
 table td{
   padding: 5px;
+}
+@media (max-width:600px) {
+  table th{
+ font-size: 10px;
+  }
 }
 table button{
   margin: 5px 0;
